@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
     @IBAction func calculateTip(_ sender: Any) {
+        //Tio Calculator 
         let bill=Double(billAmountTF.text!) ?? 0
         let tipPercentages=[0.15,0.18,0.2]
         
